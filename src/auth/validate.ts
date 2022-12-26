@@ -19,7 +19,7 @@ const validate = {
         errorMessage: "1 digit",
       },
       {
-        reg: /(?=.*?[A-Z])/,
+        reg: /(?=.*?[A-ZА-Я])/,
         errorMessage: "1 uppercase letter",
       },
       {
